@@ -3,6 +3,8 @@ lm-button
 
 一款精致的按钮
 
-[http://www.f2er.org/?p=99](http://www.f2er.org/?p=99)
+[懒人日记](http://www.f2er.org/?p=99)
+
+[按钮生成器](http://lab.f2er.org/lmButtonCreater.php)
 
 lazyman design
