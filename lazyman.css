@@ -1,5 +1,4 @@
-/*深蓝色按钮*/
-a.lm-darkblue {
+a.lm-button {
   display: inline-block;
   position: relative;
   width: 100px;
@@ -8,7 +7,7 @@ a.lm-darkblue {
   color: #fff;
   text-decoration: none;
 }
-a.lm-darkblue span {
+a.lm-button span {
   display: inline-block;
   width: 100px;
   height: 30px;
@@ -21,258 +20,123 @@ a.lm-darkblue span {
   font-family: arial;
   text-align: center;
 }
-a.lm-darkblue:link,
-a.lm-darkblue:visited {
-  border-top-color: #4339c9;
-  border-bottom-color: #3b31af;
+a.lm-button:link,
+a.lm-button:visited {
+  border-top-color: #555555;
+  border-bottom-color: #3b3b3b;
 }
-a.lm-darkblue:hover {
-  border-top-color: #3b31af;
-  border-bottom-color: #2c2486;
+a.lm-button:hover {
+  border-top-color: #3b3b3b;
+  border-bottom-color: #2f2f2f;
   color: #fff;
 }
-a.lm-darkblue:active {
-  border-top-color: #2c2486;
-  border-bottom-color: #1f1758;
+a.lm-button:active {
+  border-top-color: #2f2f2f;
+  border-bottom-color: #222222;
   color: color: #fff;
-}
-
-
-/*灰色按钮*/
-a.lm-gray {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-gray span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-}
-a.lm-gray:link,
-a.lm-gray:visited {
-  border-top-color: #c4c4c4;
-  border-bottom-color: #989898;
-}
-a.lm-gray:hover {
-  border-top-color: #989898;
-  border-bottom-color: #747474;
-  color: #fff;
-}
-a.lm-gray:active {
-  border-top-color: #747474;
-  border-bottom-color: #585858;
-  color: color: #fff;
-}
-
-
-/*天蓝色按钮*/
-a.lm-blue {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-blue span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-}
-a.lm-blue:link,
-a.lm-blue:visited {
-  border-top-color: #3bd8e0;
-  border-bottom-color: #24c4cb;
-}
-a.lm-blue:hover {
-  border-top-color: #24c4cb;
-  border-bottom-color: #12aab2;
-  color: #fff;
-}
-a.lm-blue:active {
-  border-top-color: #12aab2;
-  border-bottom-color: #089398;
-  color: color: #fff;
-}
-
-
-/*红色按钮*/
-a.lm-red {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-red span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-}
-a.lm-red:link,
-a.lm-red:visited {
-  border-top-color: #f75d64;
-  border-bottom-color: #e0343b;
-}
-a.lm-red:hover {
-  border-top-color: #e0343b;
-  border-bottom-color: #cb151c;
-  color: #fff;
-}
-a.lm-red:active {
-  border-top-color: #cb151c;
-  border-bottom-color: #a50a12;
-  color: color: #fff;
-}
-
-
-/*绿色按钮*/
-a.lm-green {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-green span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-}
-a.lm-green:link,
-a.lm-green:visited {
-  border-top-color: #36d82c;
-  border-bottom-color: #2cb221;
-}
-a.lm-green:hover {
-  border-top-color: #2cb221;
-  border-bottom-color: #1f8e17;
-  color: #fff;
-}
-a.lm-green:active {
-  border-top-color: #1f8e17;
-  border-bottom-color: #15640f;
-  color: color: #fff;
-}
-
-
-/*紫色按钮*/
-a.lm-purple {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-purple span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-}
-a.lm-purple:link,
-a.lm-purple:visited {
-  border-top-color: #e843db;
-  border-bottom-color: #cb29bf;
-}
-a.lm-purple:hover {
-  border-top-color: #cb29bf;
-  border-bottom-color: #a21a98;
-  color: #fff;
-}
-a.lm-purple:active {
-  border-top-color: #a21a98;
-  border-bottom-color: #791271;
-  color: color: #fff;
-}
-
-
-/*橙色按钮*/
-a.lm-orange {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  border-width: 15px 0;
-  border-style: solid;
-  color: #fff;
-  text-decoration: none;
-}
-a.lm-orange span {
-  display: inline-block;
-  width: 100px;
-  height: 30px;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
 }
 a.lm-orange:link,
 a.lm-orange:visited {
   border-top-color: #eaa050;
-  border-bottom-color: #cb863b;
+  border-bottom-color: #e58722;
 }
 a.lm-orange:hover {
-  border-top-color: #cb863b;
-  border-bottom-color: #b47127;
+  border-top-color: #e58722;
+  border-bottom-color: #d47a19;
   color: #fff;
 }
 a.lm-orange:active {
-  border-top-color: #b47127;
-  border-bottom-color: #a5521c;
+  border-top-color: #d47a19;
+  border-bottom-color: #bd6d17;
+  color: color: #fff;
+}
+a.lm-darkblue:link,
+a.lm-darkblue:visited {
+  border-top-color: #4339c9;
+  border-bottom-color: #352ca3;
+}
+a.lm-darkblue:hover {
+  border-top-color: #352ca3;
+  border-bottom-color: #2e278f;
+  color: #fff;
+}
+a.lm-darkblue:active {
+  border-top-color: #2e278f;
+  border-bottom-color: #28217b;
+  color: color: #fff;
+}
+a.lm-gray:link,
+a.lm-gray:visited {
+  border-top-color: #c4c4c4;
+  border-bottom-color: #ababab;
+}
+a.lm-gray:hover {
+  border-top-color: #ababab;
+  border-bottom-color: #9e9e9e;
+  color: #fff;
+}
+a.lm-gray:active {
+  border-top-color: #9e9e9e;
+  border-bottom-color: #919191;
+  color: color: #fff;
+}
+a.lm-blue:link,
+a.lm-blue:visited {
+  border-top-color: #3bd8e0;
+  border-bottom-color: #20c0c8;
+}
+a.lm-blue:hover {
+  border-top-color: #20c0c8;
+  border-bottom-color: #1cabb2;
+  color: #fff;
+}
+a.lm-blue:active {
+  border-top-color: #1cabb2;
+  border-bottom-color: #19969c;
+  color: color: #fff;
+}
+a.lm-red:link,
+a.lm-red:visited {
+  border-top-color: #f75d64;
+  border-bottom-color: #f52c36;
+}
+a.lm-red:hover {
+  border-top-color: #f52c36;
+  border-bottom-color: #f3141e;
+  color: #fff;
+}
+a.lm-red:active {
+  border-top-color: #f3141e;
+  border-bottom-color: #e30b15;
+  color: color: #fff;
+}
+a.lm-green:link,
+a.lm-green:visited {
+  border-top-color: #4bb734;
+  border-bottom-color: #3b8f29;
+}
+a.lm-green:hover {
+  border-top-color: #3b8f29;
+  border-bottom-color: #337b23;
+  color: #fff;
+}
+a.lm-green:active {
+  border-top-color: #337b23;
+  border-bottom-color: #2a681d;
+  color: color: #fff;
+}
+a.lm-purple:link,
+a.lm-purple:visited {
+  border-top-color: #d34bd3;
+  border-bottom-color: #bd2ebd;
+}
+a.lm-purple:hover {
+  border-top-color: #bd2ebd;
+  border-bottom-color: #a829a8;
+  color: #fff;
+}
+a.lm-purple:active {
+  border-top-color: #a829a8;
+  border-bottom-color: #942494;
   color: color: #fff;
 }
